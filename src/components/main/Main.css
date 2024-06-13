@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "orish";
+    src: url('/font/orish.woff2');
+}
+::selection{
+    color: chartreuse;
+    /* background-color: #ffffff; */
+}

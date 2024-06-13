@@ -1,0 +1,15 @@
+.add{
+    position: absolute;
+    right: 18px;
+    top: 64px;
+    transition: all 0.5s ease;
+}
+.remove{
+    position: absolute;
+    top: 64px;
+    right: -500px;
+    transition: all 0.5s;
+}
+.anime{
+    transition: all 0.5s ;
+}

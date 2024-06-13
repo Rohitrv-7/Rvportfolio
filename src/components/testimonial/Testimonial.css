@@ -1,0 +1,9 @@
+.cards{
+    width: 500%;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.card{
+    width: 100%;
+}
