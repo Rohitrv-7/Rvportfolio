@@ -7,8 +7,8 @@ function Home() {
   return (
     <>
     {/* <div className="h-screen border-b relative"> */}
-      <div className="home h-screen border-b mt-4 w-full relative px-8 max-md:px-5">
-        <div className="absolute bottom-32">
+      <div className="home h-screen border-b  w-full relative px-8 max-md:px-5 max-md:h-[500px]">
+        <div className="absolute bottom-28 max-sm:bottom-12">
           <Title title="Let's Meet"/>
           <h1 className="font-[orish] text-6xl mt-4 max-sm:text-4xl">I'm Rohit Kumar</h1>
           <h1 className="font-[orish] text-6xl max-sm:text-4xl">MERN Stack Developer</h1>

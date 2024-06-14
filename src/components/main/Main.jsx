@@ -13,7 +13,7 @@ import Contact from "../contact/Contact";
 
 function Main() {
   return (
-    <div className="w-full h-full overflow-hidden">
+    <div className="w-full h-full relative overflow-hidden">
     <Navbar />
     <Home />
     <Portfolio />

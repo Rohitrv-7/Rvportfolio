@@ -7,7 +7,7 @@
 .remove{
     position: absolute;
     top: 64px;
-    right: -500px;
+    right: -1200px;
     transition: all 0.5s;
 }
 .anime{

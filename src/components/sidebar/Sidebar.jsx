@@ -3,7 +3,7 @@ import './Sidebar.css'
 
 function Sidebar() {
   return (
-    <div className="sidebar border border-zinc-600 h-full w-1/4 rounded-lg py-6 px-6 backdrop-blur-md bg-zinc-800/50 sticky top-5 max-md:hidden">
+    <div className="sidebar  border border-zinc-600 h-full w-1/4 rounded-lg py-6 px-6 backdrop-blur-md bg-zinc-800/50 sticky top-5 max-md:hidden">
         <div className="title flex items-center gap-2">
           <span><i className="ri-award-line text-5xl text-yellow-500"></i></span>
           <h1 className='text-3xl font-bold tracking-wider font-[orish] leading-6'>Rohitrv7</h1>

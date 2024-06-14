@@ -17,8 +17,8 @@ function Navbar() {
   }
 
   return (
-    <nav className="flex sticky top-0 z-10">
-      <div className={`${mode? "bg-zinc-900/70" : "bg-zinc-50/70 text-zinc-900 border-b borderr-zinc-700"} relative flex w-full justify-between px-7 items-center pt-5 pb-2 border-b backdrop-blur-xl max-md:px-5`}>
+    <nav className="flex sticky top-0 w-full z-10 max-md:fixed">
+      <div className={`${mode? "bg-zinc-900/70" : "bg-zinc-900/70 text-zin00 border-b borderr-zinc-700"} relative flex w-full justify-between px-7 items-center pt-5 pb-2 border-b backdrop-blur-xl max-md:px-5`}>
         <h1 className='font-bold text-2xl md:hidden'>Rohitrv7</h1>
         <div className="flex gap-3 items-center max-md:hidden">
           <Link to='home' smooth={true} offset={-102} duration={500} className="active hover:border px-3 py-1 rounded-[20px] transition ease-in">Home</Link>
@@ -29,11 +29,11 @@ function Navbar() {
         </div>
         <div className={`${menu ? "add" : "remove"} border w-[250px] p-5 bg-zinc-900/90 backdrop-blur-xl rounded-lg overflow-hidden`}>
           <ul className='flex flex-col gap-4'>
-            <li className='text-2xl'><Link to='home' smooth={true} offset={0} duration={500}>Home</Link></li>
-            <li className='text-2xl'><Link to='about' smooth={true} offset={0} duration={500}>About</Link></li>
-            <li className='text-2xl'><Link to='portfolio' smooth={true} offset={0} duration={500}>Portfolio</Link></li>
-            <li className='text-2xl'><Link to='testimonial' smooth={true} offset={0} duration={500}>Testimonial</Link></li>
-            <li className='text-2xl'><Link to='contact' smooth={true} offset={0} duration={500}>Contact</Link></li>
+            <li className='text-2xl'><Link to='home' smooth={true} offset={-40} duration={500}>Home</Link></li>
+            <li className='text-2xl'><Link to='about' smooth={true} offset={-60} duration={500}>About</Link></li>
+            <li className='text-2xl'><Link to='portfolio' smooth={true} offset={-60} duration={500}>Portfolio</Link></li>
+            <li className='text-2xl'><Link to='testimonial' smooth={true} offset={-60} duration={500}>Testimonial</Link></li>
+            <li className='text-2xl'><Link to='contact' smooth={true} offset={-90} duration={500}>Contact</Link></li>
           </ul>
         </div>
         <div className="flex gap-6 items-center">
