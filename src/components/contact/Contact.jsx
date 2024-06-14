@@ -20,7 +20,7 @@ function Contact() {
         const data = await response.json();
     
         if (data.success) {
-          setResult("Form Submitted Successfully");
+          setResult("Message send Successfully");
           event.target.reset();
         } else {
           console.log("Error", data);
@@ -49,7 +49,7 @@ function Contact() {
                 <i className="ri-send-plane-fill mt-1 ms-1 absolute right-3"></i>
             </div>
         </form>
-        <span>{result}</span>
+        <span className='mt-2 pb-3'>{result}</span>
     </div>
   )
 }
